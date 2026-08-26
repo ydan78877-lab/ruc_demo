@@ -1,0 +1,35 @@
+.resume-page { min-height: 100vh; background: #f7faff; color: #0d2345; }
+.resume-content { padding: 24rpx 30rpx calc(48rpx + env(safe-area-inset-bottom)); }
+.resume-hero { display: flex; align-items: center; justify-content: space-between; padding: 27rpx 26rpx; border: 1rpx solid #d6e6f6; border-radius: 26rpx; background: linear-gradient(135deg,#fff,#eef8ff); }
+.resume-hero > view { display: flex; flex-direction: column; }
+.resume-hero > view text:first-child { font-size: 32rpx; font-weight: 800; }
+.resume-hero > view text:nth-child(2) { margin-top: 8rpx; color: #60728e; font-size: 21rpx; }
+.resume-hero > view text:last-child { margin-top: 7rpx; color: #17a287; font-size: 18rpx; }
+.resume-hero > .mini-icon { width: 73rpx; height: 73rpx; }
+.resume-sections { display: flex; flex-direction: column; gap: 14rpx; margin-top: 23rpx; }
+.resume-section { overflow: hidden; border: 1rpx solid #dae6f4; border-radius: 22rpx; background: #fff; }
+.resume-section-heading { display: flex; min-height: 91rpx; align-items: center; padding: 13rpx 19rpx; }
+.resume-section-icon { display: flex; width: 57rpx; height: 57rpx; align-items: center; justify-content: center; border-radius: 17rpx; background: #edf5ff; }
+.resume-section-icon .mini-icon { width: 32rpx; height: 32rpx; }
+.resume-section-copy { display: flex; flex: 1; min-width: 0; flex-direction: column; margin-left: 16rpx; }
+.resume-section-copy text:first-child { font-size: 24rpx; font-weight: 740; }
+.resume-section-copy text:last-child { overflow: hidden; margin-top: 5rpx; color: #8190a5; font-size: 18rpx; text-overflow: ellipsis; white-space: nowrap; }
+.resume-section-heading > .mini-icon { width: 23rpx; height: 23rpx; transition: transform .18s ease; }
+.resume-section.expanded .resume-section-heading > .mini-icon { transform: rotate(90deg); }
+.resume-section-body { padding: 5rpx 20rpx 19rpx 92rpx; border-top: 1rpx solid #edf1f6; background: #fbfdff; }
+.resume-education { display: flex; flex-direction: column; gap: 7rpx; padding: 16rpx 0; color: #65768e; font-size: 20rpx; }
+.resume-education text:first-child { color: #183251; font-weight: 700; }
+.resume-field-stack { display: flex; flex-direction: column; gap: 8rpx; padding: 12rpx 0; }
+.resume-field-stack > text { margin-top: 6rpx; color: #60718b; font-size: 18rpx; font-weight: 650; }
+.resume-field-stack input { height: 65rpx; padding: 0 14rpx; border: 1rpx solid #d7e3f2; border-radius: 13rpx; background: #fff; font-size: 21rpx; }
+.resume-record { display: flex; align-items: center; padding: 16rpx 0; border-bottom: 1rpx solid #e8eef6; }
+.resume-record:last-child { border-bottom: 0; }
+.resume-record > view { display: flex; flex: 1; min-width: 0; flex-direction: column; }
+.resume-record > view text:first-child { font-size: 21rpx; font-weight: 690; }
+.resume-record > view text:last-child { overflow: hidden; margin-top: 4rpx; color: #8290a4; font-size: 17rpx; text-overflow: ellipsis; white-space: nowrap; }
+.resume-record > .mini-icon { width: 21rpx; height: 21rpx; }
+.resume-empty { padding: 22rpx 0; color: #8a98ab; font-size: 19rpx; text-align: center; }
+.resume-primary, .resume-secondary { margin: 22rpx 0 0; border-radius: 20rpx; font-size: 23rpx; line-height: 78rpx; }
+.resume-primary { background: #1768ec; color: #fff; }
+.resume-secondary { border: 1rpx solid #c9daf0; background: #fff; color: #1768ec; }
+.resume-primary::after, .resume-secondary::after { display: none; }

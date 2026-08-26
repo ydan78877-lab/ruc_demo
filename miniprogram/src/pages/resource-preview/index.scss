@@ -1,0 +1,36 @@
+.resource-preview-page { min-height: 100vh; }
+.resource-preview-meta { display: flex; align-items: center; gap: 18rpx; padding: 22rpx; border: 1rpx solid #d8e6f6; border-radius: 24rpx; background: #fff; }
+.resource-preview-icon { width: 76rpx; height: 76rpx; border-radius: 20rpx; background: #e9f7fb; display: flex; align-items: center; justify-content: center; }
+.resource-preview-icon .mini-icon { width: 38rpx; height: 38rpx; }
+.resource-preview-meta > view:last-child { flex: 1; min-width: 0; }
+.resource-preview-meta text { display: block; }
+.resource-preview-meta text:first-child, .resource-preview-meta text:last-child { color: #7c90aa; font-size: 19rpx; }
+.resource-preview-meta text:nth-child(2) { margin: 5rpx 0; color: #102c54; font-size: 29rpx; font-weight: 730; }
+.resource-version-row { margin-top: 18rpx; padding: 17rpx 20rpx; border: 1rpx solid #d8e6f6; border-radius: 19rpx; background: #fff; display: flex; align-items: center; justify-content: space-between; }
+.resource-version-row view text { display: block; }
+.resource-version-row view text:first-child { color: #7c90aa; font-size: 18rpx; }
+.resource-version-row view text:last-child { margin-top: 4rpx; color: #163257; font-size: 23rpx; }
+.resource-version-row > text { color: #176df4; font-size: 21rpx; }
+.resource-paper { min-height: 620rpx; margin-top: 20rpx; padding: 46rpx 38rpx; border: 1rpx solid #cedcee; border-radius: 14rpx; background: #fff; box-shadow: 0 14rpx 35rpx rgba(42,74,116,.08); }
+.resource-paper > text { display: block; }
+.resource-paper > text:first-child { color: #102b51; font-size: 34rpx; font-weight: 750; text-align: center; }
+.resource-paper > text:nth-child(2) { margin: 10rpx 0 50rpx; color: #7a8fa9; font-size: 20rpx; text-align: center; }
+.resource-paper > text:nth-child(6) { margin-top: 42rpx; color: #506987; font-size: 22rpx; line-height: 1.8; }
+.resource-paper-line { height: 10rpx; width: 72%; margin: 18rpx 0; border-radius: 999rpx; background: #e7eef7; }
+.resource-paper-line.wide { width: 100%; }
+.resource-paper-line.short { width: 48%; }
+.resource-paper-chart { height: 180rpx; margin-top: 44rpx; display: flex; align-items: flex-end; justify-content: center; gap: 24rpx; border-bottom: 2rpx solid #d5e1ef; }
+.resource-paper-chart view { width: 50rpx; border-radius: 10rpx 10rpx 0 0; background: linear-gradient(#4b98ff,#1c6cf0); }
+.resource-paper-chart view:nth-child(1) { height: 65rpx; }.resource-paper-chart view:nth-child(2) { height: 112rpx; }.resource-paper-chart view:nth-child(3) { height: 88rpx; }.resource-paper-chart view:nth-child(4) { height: 145rpx; }
+.resource-linked-matter { margin: 20rpx 0 calc(32rpx + env(safe-area-inset-bottom)); padding: 20rpx; border: 1rpx solid #d8e6f6; border-radius: 21rpx; background: #fff; display: flex; align-items: center; }
+.resource-linked-matter view { flex: 1; }.resource-linked-matter text { display: block; }
+.resource-linked-matter text:first-child { color: #7c90aa; font-size: 18rpx; }.resource-linked-matter text:nth-child(2) { margin: 4rpx 0; color: #102c54; font-size: 25rpx; font-weight: 680; }.resource-linked-matter text:last-child { color: #176df4; font-size: 19rpx; }
+.resource-linked-matter .mini-icon { width: 28rpx; height: 28rpx; }
+.resource-file-card { margin-top: 20rpx; padding: 52rpx 30rpx 32rpx; border: 1rpx solid #d8e6f6; border-radius: 24rpx; background: #fff; box-shadow: 0 14rpx 35rpx rgba(42,74,116,.08); text-align: center; }
+.resource-file-card > text { display: block; }
+.resource-file-card > text:nth-child(2) { margin-top: 22rpx; color: #102c54; font-size: 30rpx; font-weight: 730; word-break: break-all; }
+.resource-file-card > text:nth-child(3) { margin-top: 8rpx; color: #7c90aa; font-size: 20rpx; }
+.resource-file-card > text:nth-child(4) { margin: 34rpx auto 0; max-width: 470rpx; color: #607895; font-size: 21rpx; line-height: 1.7; }
+.resource-file-mark { width: 110rpx; height: 110rpx; margin: 0 auto; border-radius: 30rpx; background: #e9f7fb; display: flex; align-items: center; justify-content: center; }
+.resource-file-mark .mini-icon { width: 54rpx; height: 54rpx; }
+.resource-download-button { margin-top: 40rpx; padding: 20rpx; border-radius: 18rpx; background: #176df4; color: #fff; font-size: 24rpx; font-weight: 650; }

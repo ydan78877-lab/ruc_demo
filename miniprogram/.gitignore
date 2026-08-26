@@ -1,0 +1,12 @@
+node_modules/
+dist/
+dist-h5/
+.swc/
+project.private.config.json
+private.*.key
+.env
+.env.*
+!.env.example
+cloudbaserc.json
+!cloudbaserc.example.json
+.DS_Store

@@ -1,0 +1,32 @@
+.matters-page {
+  min-height: 100vh;
+}
+
+.matters-tabs {
+  margin-bottom: 18rpx;
+}
+
+.campus-matter-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16rpx;
+  padding-bottom: calc(150rpx + env(safe-area-inset-bottom));
+}
+
+.campus-empty {
+  padding: 120rpx 0;
+  text-align: center;
+  color: #8da0bb;
+  font-size: 26rpx;
+}
+
+.matters-empty-action {
+  display: flex;
+  flex-direction: column;
+  gap: 12rpx;
+}
+
+.matters-empty-action text:last-child {
+  color: #1768ec;
+  font-size: 22rpx;
+}

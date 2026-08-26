@@ -1,0 +1,11 @@
+.case-detail-page { min-height: 100vh; background: #f7faff; color: #0d2345; }
+.case-detail-content { padding: 25rpx 30rpx calc(48rpx + env(safe-area-inset-bottom)); }
+.case-detail-hero { display: flex; align-items: center; padding: 25rpx; border: 1rpx solid #d9e7f7; border-radius: 25rpx; background: linear-gradient(135deg,#edf6ff,#f8fbff,#eefaf8); }
+.case-detail-logo { flex: none; width: 90rpx; height: 90rpx; padding: 10rpx; border-radius: 24rpx; background: #fff; }
+.case-detail-copy { display: flex; min-width: 0; flex-direction: column; margin-left: 18rpx; }.case-detail-copy text:first-child { overflow: hidden; font-size: 28rpx; font-weight: 820; text-overflow: ellipsis; white-space: nowrap; }.case-detail-copy text:nth-child(2) { margin-top: 7rpx; color: #50647d; font-size: 20rpx; }.case-detail-copy text:last-child { margin-top: 7rpx; color: #1768ec; font-size: 18rpx; }
+.case-detail-tags { display: flex; flex-wrap: wrap; gap: 8rpx; padding: 16rpx 0 7rpx; }.case-detail-tags view { padding: 6rpx 11rpx; border-radius: 999rpx; background: #e8f2ff; color: #1768ec; font-size: 17rpx; }
+.case-detail-title { margin: 22rpx 0 12rpx; font-size: 25rpx; font-weight: 800; }
+.case-detail-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 11rpx; }.case-detail-cell { display: flex; min-height: 90rpx; flex-direction: column; justify-content: center; padding: 15rpx 17rpx; border: 1rpx solid #dce7f4; border-radius: 19rpx; background: #fff; }.case-detail-cell text:first-child { color: #8090a5; font-size: 17rpx; }.case-detail-cell text:last-child { margin-top: 7rpx; font-size: 20rpx; font-weight: 650; line-height: 1.45; }
+.case-detail-note { padding: 20rpx; border: 1rpx solid #dce7f4; border-radius: 21rpx; background: #fff; color: #50647d; font-size: 20rpx; line-height: 1.65; }
+.case-detail-contact { display: flex; align-items: center; justify-content: space-between; margin-top: 15rpx; padding: 20rpx; border-radius: 21rpx; background: #eef6ff; }.case-detail-contact > view { display: flex; flex-direction: column; }.case-detail-contact text:first-child { font-size: 22rpx; font-weight: 750; }.case-detail-contact text:last-child { margin-top: 6rpx; color: #74859c; font-size: 17rpx; }.case-detail-contact image { width: 82rpx; height: 82rpx; border-radius: 12rpx; }
+.case-detail-empty { padding: 100rpx 30rpx; color: #8795a8; text-align: center; }
